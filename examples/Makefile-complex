@@ -1,0 +1,11 @@
+SRCS_SYNTH=alu_op_package.vhd jump_type_package.vhd  dcache.vhd     ext_type_package.vhd  id_comb_logic_tbl.vhd  next_addr_logic_tbl.vhd  Pipeline_reg_extype.vhd   statistics.vhd
+SRCS_SIM=txt_util.vhd    Clk_Reset_Gen_behav.vhd  dlx_pkg.vhd              MemSub.vhd                tb_dcache.vhd
+SYNTH_DIR=../synth
+SIM_DIR=../sim
+PART=xc3s1000-FT256-4
+TOP_NAME=intdlx_core
+TESTBENCH_NAME=IntDLX
+DESIGN_NAME=intdlx
+
+#============= END OF CONFIG ======================
+include ~/ise-make-system/xilinx_rules.mk
