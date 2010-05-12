@@ -1,0 +1,3 @@
+This is set of scripts and rules for Make to build VHDL files into Xilinx Bitstream using Xilinx ISE WebPack
+
+See more at http://pigster.afraid.org/hw/ise-build-system
